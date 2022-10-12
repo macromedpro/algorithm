@@ -1,0 +1,16 @@
+ALGORITHM character
+Program conting
+ Read (chaine)
+ i:=0
+ NbrWords:=0
+ NrrVoy:=0
+ Continue:=true
+ While (Continue=true)do
+(
+ i:=i+1
+ If(chaine[i]=".")then Continue:=false
+ If(chaine [i]=" ")then NbrWords:=NbrWords+1
+ If(chaine [i] in ["a","i","o","u","e","y"])then NbrVoy:=NbrVoy+1
+)
+ Write (NbrVoy, NbrWords)
+ END
